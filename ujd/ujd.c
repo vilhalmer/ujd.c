@@ -76,7 +76,7 @@ char * UJDToUJD(char * ujdString, ujd ujdDecimal)
 	int ujdMillisols = floor(atoi(ujdFraction) / 1000);
 	int ujdMicrosols = atoi(ujdFraction) % 1000;
 	
-	snprintf(ujdString, 18, "%d %d ſ %d %d\n", ujdKilosols, ujdSols, ujdMillisols, ujdMicrosols);
+	snprintf(ujdString, 18, "%d %03d ſ %03d %03d\n", ujdKilosols, ujdSols, ujdMillisols, ujdMicrosols);
 	return ujdString;
 }
 
