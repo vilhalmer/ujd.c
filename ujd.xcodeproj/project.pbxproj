@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28ECDC91148C03BE00F284F3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDC90148C03BE00F284F3 /* main.c */; };
 		28ECDC93148C03BE00F284F3 /* ujd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28ECDC92148C03BE00F284F3 /* ujd.1 */; };
+		28ECDC9C148C0E5C00F284F3 /* ujd.c in Sources */ = {isa = PBXBuildFile; fileRef = 28ECDC99148C03DA00F284F3 /* ujd.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		28ECDC8C148C03BE00F284F3 /* ujd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ujd; sourceTree = BUILT_PRODUCTS_DIR; };
 		28ECDC90148C03BE00F284F3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		28ECDC92148C03BE00F284F3 /* ujd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ujd.1; sourceTree = "<group>"; };
+		28ECDC99148C03DA00F284F3 /* ujd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ujd.c; sourceTree = "<group>"; };
+		28ECDC9B148C047A00F284F3 /* ujd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ujd.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				28ECDC90148C03BE00F284F3 /* main.c */,
+				28ECDC9B148C047A00F284F3 /* ujd.h */,
+				28ECDC99148C03DA00F284F3 /* ujd.c */,
 				28ECDC92148C03BE00F284F3 /* ujd.1 */,
 			);
 			path = ujd;
@@ -117,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28ECDC91148C03BE00F284F3 /* main.c in Sources */,
+				28ECDC9C148C0E5C00F284F3 /* ujd.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

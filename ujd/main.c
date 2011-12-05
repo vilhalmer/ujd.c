@@ -7,12 +7,18 @@
 //
 
 #include <stdio.h>
+#include "ujd.h"
 
-int main (int argc, const char * argv[])
+int main(int argc, char *argv[])
 {
-
-	// insert code here...
-	printf("Hello, World!\n");
-    return 0;
+	char time[25];
+	if (argv[1] == NULL)
+	{
+		printf("%s\n", UJDToUJD(time, GetCurrentUJD()));
+		return 0;
+	}
+	printf("%s\n", UJDToOldtime(time, parseAbsoluteTimeToUJD(argv[1])));
+	
+	return 0;
 }
 
